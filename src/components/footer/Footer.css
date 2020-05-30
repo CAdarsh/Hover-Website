@@ -1,0 +1,25 @@
+.footer-container{
+    width: 80vw;
+    margin-left: 10vw;
+    margin-bottom: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 32px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .footer-container{
+        width: 90vw;
+        margin-left: 5vw;
+        margin-bottom: 5vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 16px;
+    }
+    .footer-container img{
+        height: 30px;
+    }
+}

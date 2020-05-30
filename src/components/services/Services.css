@@ -1,0 +1,72 @@
+.s-overlay-one{
+    width:100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(180deg, rgba(163, 51, 39, 0) 0%, rgba(161, 51, 39, 0.04) 10.01%, #232323 38.76%);
+    z-index: -8;
+  }
+  
+.s-overlay-second{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(180deg, rgba(163, 51, 39, 0.5) 10%, rgba(163, 51, 39, 0) 45%);
+    z-index: -8;
+  
+  }
+  
+.s-overlay-third{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../../static/images/services-cover.png');
+    background-size: 100vw 70vh;
+    background-repeat: no-repeat;
+    z-index: -10;
+}
+.DDMB{
+  width:80vw;
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  margin:50px auto;
+  row-gap: 50px;
+}
+#s{
+  margin-bottom:80px;
+}
+.s-service{
+  font-size:var(--small);
+  font-weight: bold;
+  margin-top: 10px;
+}
+.service-info{
+  font-size:25px;
+  margin-left: 20px;
+}
+.service-info .hr{
+  width:50%;
+  border-bottom:1px solid rgba(255, 255, 255,0.5);
+}
+.service-info-row{
+  margin:20px auto;
+}
+
+@media only screen and (max-width: 600px){
+  .DDMB{
+    width:90vw;
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+  }
+  .s-service{
+    font-size:23px;
+  }
+  .service-info-row{
+    font-size: 20px;
+  }
+}
